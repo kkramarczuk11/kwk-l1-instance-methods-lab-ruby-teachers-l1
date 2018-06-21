@@ -19,5 +19,7 @@ class Person
   def walk
     @walk
   end
-  
+
+  def walk
+    puts "the Person is walking"
 end
