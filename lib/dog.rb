@@ -20,6 +20,9 @@ class Dog
   def sit
     @sit
   end
+
+  def sit
+    puts "The Dog is sitting"
 end
 
 fido = Dog.new
