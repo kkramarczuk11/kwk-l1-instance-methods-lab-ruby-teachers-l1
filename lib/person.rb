@@ -11,4 +11,13 @@ class Person
   def talk
     puts "Hello World!"
   end
+
+  def walk=(walk)
+    @walk = walk
+  end
+
+  def walk
+    @walk
+  end
+  
 end
