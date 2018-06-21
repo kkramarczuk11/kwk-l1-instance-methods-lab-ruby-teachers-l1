@@ -1,5 +1,6 @@
 # person.rb
 class Person
+attr_accesor :walk
   def talk=(talk)
     @talk = talk
   end
