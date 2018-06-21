@@ -7,4 +7,8 @@ class Person
   def talk
     @talk
   end
+
+  def talk
+    puts "Hello World!"
+  end
 end
