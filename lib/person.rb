@@ -1,6 +1,6 @@
 # person.rb
 class Person
-attr_accesor :talk, :walk
+attr_accessor :talk, :walk
 
   def talk
     puts "Hello World!"
